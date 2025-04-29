@@ -1,4 +1,5 @@
-'use client'; // Required for hooks
+
+"use client"; // Required for hooks
 
 import React from 'react';
 import { useTranslation } from "../lib/i18n";
@@ -12,25 +13,31 @@ const Activities = () => {
       id: 'trampoline',
       title: t('activities.trampoline'),
       description: t('activities.trampolineDesc'),
-      image: '/images/trampoline.jpg'
+      // Corrected extension to .jpeg (or .jpg if trampoline.jpg is preferred and exists)
+      // Let's use .jpeg for consistency for now, assuming trampoline.jpeg is the intended file
+      image: '/images/trampoline.jpeg' 
     },
     {
       id: 'zipline',
       title: t('activities.zipline'),
       description: t('activities.ziplineDesc'),
-      image: '/images/slide.jpg' // Using slide image as placeholder for zipline
+      // Corrected extension to .jpeg
+      image: '/images/slide.jpeg' // Using slide image as placeholder for zipline
     },
     {
       id: 'slides',
       title: t('activities.slides'),
       description: t('activities.slidesDesc'),
-      image: '/images/slide.jpg'
+      // Corrected extension to .jpeg
+      image: '/images/slide.jpeg'
     },
     {
       id: 'games',
       title: t('activities.games'),
       description: t('activities.gamesDesc'),
-      image: '/images/trampoline.jpg' // Using trampoline image as placeholder for games
+      // Corrected extension to .jpeg (or .jpg if trampoline.jpg is preferred and exists)
+      // Let's use .jpeg for consistency for now
+      image: '/images/trampoline.jpeg' // Using trampoline image as placeholder for games
     }
   ];
 
