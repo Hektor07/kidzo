@@ -10,11 +10,11 @@ const Gallery = () => {
   // Placeholder images - replace with actual image paths
   const images = [
     { id: 1, src: "/images/slide.jpg", alt: "Kids on slide" },
-    { id: 2, src: "/images/trampoline.jpg", alt: "Kids on trampoline" },
+    { id: 2, src: "/images/trampoline.jpeg", alt: "Kids on trampoline" },
     { id: 3, src: "/images/slide.jpg", alt: "Play area" }, // Placeholder
-    { id: 4, src: "/images/trampoline.jpg", alt: "Party setup" }, // Placeholder
+    { id: 4, src: "/images/trampoline.jpeg", alt: "Party setup" }, // Placeholder
     { id: 5, src: "/images/slide.jpg", alt: "Cafe area" }, // Placeholder
-    { id: 6, src: "/images/trampoline.jpg", alt: "Zipline fun" }, // Placeholder
+    { id: 6, src: "/images/trampoline.jpeg", alt: "Zipline fun" }, // Placeholder
   ];
 
   return (
